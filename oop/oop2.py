@@ -13,12 +13,10 @@ class Singleton:
       else:
          Singleton.__instance = self
 s = Singleton()
-print(id(s))
 print(s)
 
 s = Singleton.getInstance()
 print(s)
-print(id(s))
+
 s = Singleton.getInstance()
 print(s)
-print(id(s))
